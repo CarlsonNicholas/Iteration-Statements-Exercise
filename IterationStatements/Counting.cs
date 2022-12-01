@@ -119,9 +119,18 @@ namespace IterationStatements
                 Console.WriteLine($"{range} is not in the range of 10 to negative 10!");
             }
 
-
         }
-
+        // Method that displays a multiplication table: 
+        
+        public static void MultTable(int num)
+        {
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine($"{i} x {num} = {num* i}");
+            }
+        
+        
+        }
 
     }
 }
